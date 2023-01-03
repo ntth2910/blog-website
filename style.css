@@ -80,6 +80,15 @@ a {
 .text-right {
   text-align: right;
 }
+.btn {
+  padding: 15px 20px;
+  border: none;
+}
+.btn-primary {
+  border-radius: 4px;
+  background-color: var(--secondary-color);
+}
+
 /*section styling*/
 
 /* ---navigation menu--- */
@@ -152,6 +161,12 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  .grid .grid-item {
+    width: calc(50% - 20px);
+  }
+}
+
 @media (max-width: 547px) {
   .toggle-button {
     display: initial;
@@ -172,5 +187,9 @@ a {
   /* //classList trong file js */
   .collapse-toggle {
     max-height: 500px;
+  }
+
+  .grid .grid-item {
+    width: calc(100% - 20px);
   }
 }
