@@ -135,7 +135,11 @@ a {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
+.thumbnail {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
 /*section styling*/
 
 /* ---navigation menu--- */
@@ -218,6 +222,13 @@ a {
   border-top: 2px solid var(--light);
 }
 /* ------------------footer---------------------- */
+
+/* ----------- article page---------------------- */
+#post {
+  padding: 0 2em;
+  margin-bottom: 4em;
+}
+/* ----------- article page---------------------- */
 
 /* media query */
 .row {
